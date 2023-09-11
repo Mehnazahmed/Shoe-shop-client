@@ -17,6 +17,7 @@ import Signup from "../Signup/Signup";
             },
             {
              path:'/shop',
+             loader: () =>fetch('http://localhost:5000/totalproducts'),
              element:<Shop></Shop>
              
             },

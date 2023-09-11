@@ -23,7 +23,7 @@ const Navbar = () => {
       {
         user? 
          <li>
-        <button onClick={handleLogOut} className="btn ">LogOut</button>
+        <button onClick={handleLogOut} className="btn btn-ghost text-inherit lowercase">LogOut</button>
       </li>:
       <li>
       <Link to="/login">Log in</Link>
